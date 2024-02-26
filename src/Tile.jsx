@@ -22,7 +22,7 @@ export function Tile({ content: Content, flip, state }) {
       );
     case "matched":
       return (
-        <Matched className="inline-block h-16 w-16 text-indigo-300">
+        <Matched className="inline-block h-16 w-16 text-indigo-200">
           <Content
             style={{
               display: "inline-block",

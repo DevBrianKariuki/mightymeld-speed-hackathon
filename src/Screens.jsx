@@ -122,7 +122,7 @@ export function PlayScreen({ end }) {
     <>
       <div className="w-screen h-screen flex items-center justify-center">
         <div className="flex flex-col gap-8 items-center justify-center">
-          <p className="text-indigo-300 ">
+          <p className="text-indigo-300 font-medium">
             Tries{" "}
             <span className="bg-indigo-300 px-2 rounded-md text-indigo-500">
               {tryCount}
